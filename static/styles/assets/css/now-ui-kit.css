@@ -5508,6 +5508,11 @@ img {
   border: 0;
 }
 
+.card .card-btn {
+  position: static;
+  margin-top: 25px;
+}
+
 .card[data-background-color="orange"] {
   background-color: #f96332;
 }

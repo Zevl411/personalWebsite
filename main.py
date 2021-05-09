@@ -36,6 +36,10 @@ def projects():
 def login():
     return render_template('login-page.html')
 
+@app.route('/resume-content')
+def resumeContent():
+    return render_template('resume-content.html')
+
 @app.route('/icons')
 def icons():
     return render_template('nucleo-icons.html')

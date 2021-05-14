@@ -3,15 +3,16 @@
 {% block header %}
 <div class="section resume-data" data-background-color="black">
   <div class="container" data-background-color="black">
-    <h5>Projects</h5>
+    <h1 style="color: #e95e38">Projects</h1>
   </div>
 </div>
 {% endblock %} 
 
 {% block content %}
-<section class="page-section" id="services">
+<section class="page-section" data-background-color="#ffffff" style="background-image: url('static/styles/assets/img/ditto.png')" id="services">
+  </br>
     <!-- Spotify Controller -->
-    <div class="container" align="center">
+    <div class="container" data-background-color="black" align="center" id="SpotifyController" style="max-width: 50%">
       <h1>
         <button
           class="btn"
@@ -82,7 +83,7 @@
     </div>
 
     <!-- Bayesian Networks -->
-    <div class="container" align="center">
+    <div class="container" data-background-color="black" align="center" id="BayesianNetworks" style="max-width: 50%">
       <h1>
         <button
           class="btn"
@@ -113,7 +114,7 @@
     </div>
 
     <!-- Speed-Reader -->
-    <div class="container" align="center">
+    <div class="container" data-background-color="black" align="center" id="SpeedReader" style="max-width: 50%">
       <h1>
         <button
           class="btn"
@@ -134,8 +135,9 @@
           </div>
           Speed-Reader
           <div class="collapse" id="collapseSpeedReader">
-            </br>
-            <iframe width="960" height="500" src="https://xd.adobe.com/embed/dee2e5f3-bbc0-4a4e-b75e-a9b3a7551f4c-8bb1/" frameborder="0" allowfullscreen></iframe>
+            <div>
+              <iframe width="100%" height="420px" src="https://xd.adobe.com/embed/dee2e5f3-bbc0-4a4e-b75e-a9b3a7551f4c-8bb1/" frameborder="0" allowfullscreen></iframe>
+            </div>
           </div>
         </button>
         
@@ -144,7 +146,7 @@
     </div>
 
     <!-- Manatee Game -->
-    <div class="container" align="center">
+    <div class="container" data-background-color="black" align="center" id="Pygame" style="max-width: 50%">
       <h1>
         <button
           class="btn"
@@ -175,7 +177,7 @@
     </div>
 
     <!-- Flood-It! -->
-    <div class="container" align="center">
+    <div class="container" data-background-color="black" align="center" id="Flood-It" style="max-width: 50%">
       <h1>
         <button
           class="btn"
@@ -206,7 +208,7 @@
     </div>
 
     <!-- Saxophone Counter -->
-    <div class="container" align="center">
+    <div class="container" data-background-color="black" align="center" id="Saxophone" style="max-width: 50%">
       <h1>
         <button
           class="btn"
@@ -235,6 +237,6 @@
       </h1>
       
     </div>
-    
+    </br>
 </section>
 {% endblock %}
